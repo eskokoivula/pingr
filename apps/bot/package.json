@@ -1,0 +1,19 @@
+{
+  "name": "@pingr/bot",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/bot.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "grammy": "^1.35.0",
+    "telegram": "^2.26.0",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  }
+}

@@ -1,0 +1,30 @@
+node_modules
+dist
+.env
+.env.local
+.turbo
+*.log
+
+# OS files
+.DS_Store
+
+# Large binaries / archives
+*.zip
+Assets/
+
+# IDE
+.vscode/
+.idea/
+.claude/
+
+# Build outputs
+build/
+.next/
+.vercel/
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/api/send-greeting", "destination": "/api/send-greeting" },
+    { "source": "/api/mtproto-auth", "destination": "/api/mtproto-auth" },
+    { "source": "/api/(.*)", "destination": "/api" }
+  ]
+}
