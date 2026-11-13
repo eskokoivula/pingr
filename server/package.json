@@ -9,7 +9,7 @@
     "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
-    "@hono/node-server": "^1.13.0",
+    "@hono/node-server": "^2.1.6",
     "@neondatabase/serverless": "0.10.4",
     "dotenv": "^16.4.0",
     "drizzle-orm": "^0.38.0",
